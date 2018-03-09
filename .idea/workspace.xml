@@ -42,14 +42,14 @@
       <file leaf-file-name="TreeDrawer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tree/TreeDrawer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-223">
-              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            <state relative-caret-position="-138">
+              <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#260#268#0" expanded="true" />
-                <element signature="e#1523#1531#0" expanded="true" />
-                <element signature="e#2625#2633#0" expanded="true" />
-                <element signature="e#3725#3733#0" expanded="true" />
+                <element signature="e#1853#1861#0" expanded="true" />
+                <element signature="e#2955#2963#0" expanded="true" />
+                <element signature="e#4055#4063#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,12 +214,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520620303452</updated>
-      <workItem from="1520620309460" duration="7135000" />
+      <workItem from="1520620309460" duration="7888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7135000" />
+    <option name="totallyTimeSpent" value="7888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -346,14 +346,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tree/TreeDrawer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-223">
-          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="-138">
+          <caret line="52" column="22" lean-forward="true" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#260#268#0" expanded="true" />
-            <element signature="e#1523#1531#0" expanded="true" />
-            <element signature="e#2625#2633#0" expanded="true" />
-            <element signature="e#3725#3733#0" expanded="true" />
+            <element signature="e#1853#1861#0" expanded="true" />
+            <element signature="e#2955#2963#0" expanded="true" />
+            <element signature="e#4055#4063#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -42,6 +42,16 @@ public class TreeDrawer
                 }
                 break;
 
+            case "left":
+                strings = flipTree("Horizontal", prepareTreeHorizontal(height, character));
+
+                //Loop for drawing tree
+                for(int i = 0; i < strings.size(); i++)
+                {
+                    System.out.println(strings.get(i));
+                }
+                break;
+
             default:
                 System.out.println("An error occured.");
                 break;
@@ -142,9 +152,9 @@ public class TreeDrawer
         List<String> result = new ArrayList<String>();
         result = source;
 
-        //Flipping vertical tree
         if(directory == "vertical")
         {
+            //Flipping vertical tree
             String temp;
 
             for(int i = 0; i < result.size()/2; i++)
@@ -159,7 +169,32 @@ public class TreeDrawer
         }
         else
         {
-            //Flipping horisontal tree
+            //Flipping horizontal tree
+            char temp;
+
+            //For replacing certain characters in string
+            StringBuilder tempString;
+
+            int stringLength = result.get(0).length();
+
+            for(int i = 0; i < result.size(); i++)
+            {
+                tempString = new StringBuilder(result.get(i));
+
+                //Subloop for flipping every String
+                for(int j = 0; j < stringLength/2; j++)
+                {
+                    temp = tempString.charAt(j);
+
+                    //Set first char as last char;
+                    tempString.setCharAt(j, tempString.charAt(stringLength - j - 1));
+                    //Set last char as first char
+                    tempString.setCharAt(stringLength - j - 1, temp);
+                }
+
+                //Replace string in array
+                result.set(i, tempString.toString());
+            }
         }
         return result;
     }
