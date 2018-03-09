@@ -42,13 +42,14 @@
       <file leaf-file-name="TreeDrawer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tree/TreeDrawer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1052">
-              <caret line="85" column="11" lean-forward="false" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+            <state relative-caret-position="-223">
+              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#260#268#0" expanded="true" />
-                <element signature="e#1197#1205#0" expanded="true" />
-                <element signature="e#2299#2307#0" expanded="true" />
+                <element signature="e#1523#1531#0" expanded="true" />
+                <element signature="e#2625#2633#0" expanded="true" />
+                <element signature="e#3725#3733#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,12 +214,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520620303452</updated>
-      <workItem from="1520620309460" duration="6514000" />
+      <workItem from="1520620309460" duration="7135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6514000" />
+    <option name="totallyTimeSpent" value="7135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -345,13 +346,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tree/TreeDrawer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1052">
-          <caret line="85" column="11" lean-forward="false" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+        <state relative-caret-position="-223">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#260#268#0" expanded="true" />
-            <element signature="e#1197#1205#0" expanded="true" />
-            <element signature="e#2299#2307#0" expanded="true" />
+            <element signature="e#1523#1531#0" expanded="true" />
+            <element signature="e#2625#2633#0" expanded="true" />
+            <element signature="e#3725#3733#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -22,6 +22,16 @@ public class TreeDrawer
                 }
                 break;
 
+            case "down":
+                strings = flipTree("vertical", prepareTreeVertical(height, character));
+
+                //Loop for drawing tree
+                for(int i = 0; i < strings.size(); i++)
+                {
+                    System.out.println(strings.get(i));
+                }
+                break;
+
             case "right":
                 strings = prepareTreeHorizontal(height, character);
 
@@ -127,5 +137,30 @@ public class TreeDrawer
         return result;
     }
 
+    private List<String> flipTree(String directory, List<String> source)
+    {
+        List<String> result = new ArrayList<String>();
+        result = source;
 
+        //Flipping vertical tree
+        if(directory == "vertical")
+        {
+            String temp;
+
+            for(int i = 0; i < result.size()/2; i++)
+            {
+                temp = result.get(i);
+
+                //Set first string as last string
+                result.set(i, result.get(result.size() - i - 1));
+                //Set last string as first string
+                result.set(result.size() - i - 1, temp);
+            }
+        }
+        else
+        {
+            //Flipping horisontal tree
+        }
+        return result;
+    }
 }
